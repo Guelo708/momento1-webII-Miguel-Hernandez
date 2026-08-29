@@ -1,9 +1,9 @@
 export default function Navbar() {
   return (
     <nav style={styles.navbar}>
-      <h1 style={styles.title}>Miguel Eduardo Hernández</h1>
+      <h1 style={styles.title}>Miguel Eduardo Hernández</h1> 
       <div style={styles.links}>
-        <a href="/" style={styles.link}>Home</a>
+        <a href="/" style={styles.link}>Proyectos</a>
         <a href="/servicios" style={styles.link}>Servicios</a>
         <a href="/contacto" style={styles.link}>Contacto</a>
       </div>
