@@ -1,27 +1,29 @@
 import { useState } from "react";
+import Miguel from "../assets/Miguel.jpg";
+
 
 export default function ListaUsuarios() {
   const [usuarios] = useState([
-    { id: 1, nombre: "Ana", apellido: "García", profesion: "Ingeniera", foto: "https://i.pravatar.cc/100?img=1" },
+    { id: 4, nombre: "Miguel", apellido: "Hernández", profesion: "Desarrollador de Software", foto: Miguel },
+    { id: 1, nombre: "Juan", apellido: "García", profesion: "Ingeniero", foto: "https://i.pravatar.cc/100?img=1" },
     { id: 2, nombre: "Carlos", apellido: "López", profesion: "Diseñador", foto: "https://i.pravatar.cc/100?img=2" },
-    { id: 3, nombre: "Laura", apellido: "Martínez", profesion: "Doctora", foto: "https://i.pravatar.cc/100?img=3" },
-    { id: 4, nombre: "Miguel", apellido: "Hernández", profesion: "Administrador", foto: "https://i.pravatar.cc/100?img=4" },
+    { id: 3, nombre: "Gabriel", apellido: "Martínez", profesion: "Doctor", foto: "https://i.pravatar.cc/100?img=3" },
     { id: 5, nombre: "Sofía", apellido: "Ramírez", profesion: "Contadora", foto: "https://i.pravatar.cc/100?img=5" },
     { id: 6, nombre: "Andrés", apellido: "Torres", profesion: "Programador", foto: "https://i.pravatar.cc/100?img=6" },
-    { id: 7, nombre: "Valentina", apellido: "Morales", profesion: "Arquitecta", foto: "https://i.pravatar.cc/100?img=7" },
+    { id: 7, nombre: "Samuel", apellido: "Morales", profesion: "Arquitecto", foto: "https://i.pravatar.cc/100?img=7" },
     { id: 8, nombre: "Camilo", apellido: "Vargas", profesion: "Abogado", foto: "https://i.pravatar.cc/100?img=8" },
     { id: 9, nombre: "María", apellido: "Castro", profesion: "Psicóloga", foto: "https://i.pravatar.cc/100?img=9" },
-    { id: 10, nombre: "Julián", apellido: "Suárez", profesion: "Profesor", foto: "https://i.pravatar.cc/100?img=10" },
+    { id: 10, nombre: "Juliana", apellido: "Suárez", profesion: "Profesora", foto: "https://i.pravatar.cc/100?img=10" },
     { id: 11, nombre: "Paula", apellido: "Ríos", profesion: "Enfermera", foto: "https://i.pravatar.cc/100?img=11" },
     { id: 12, nombre: "Felipe", apellido: "Gómez", profesion: "Economista", foto: "https://i.pravatar.cc/100?img=12" },
-    { id: 13, nombre: "Isabela", apellido: "Ortiz", profesion: "Diseñadora UX", foto: "https://i.pravatar.cc/100?img=13" },
+    { id: 13, nombre: "Jhon", apellido: "Ortiz", profesion: "Diseñador UX", foto: "https://i.pravatar.cc/100?img=13" },
     { id: 14, nombre: "Sebastián", apellido: "Cano", profesion: "Ingeniero Civil", foto: "https://i.pravatar.cc/100?img=14" },
     { id: 15, nombre: "Lucía", apellido: "Mejía", profesion: "Periodista", foto: "https://i.pravatar.cc/100?img=15" },
-    { id: 16, nombre: "Daniel", apellido: "Pérez", profesion: "Analista Financiero", foto: "https://i.pravatar.cc/100?img=16" },
-    { id: 17, nombre: "Gabriela", apellido: "Jiménez", profesion: "Marketing", foto: "https://i.pravatar.cc/100?img=17" },
+    { id: 16, nombre: "Daniela", apellido: "Pérez", profesion: "Analista Financiera", foto: "https://i.pravatar.cc/100?img=16" },
+    { id: 17, nombre: "Pedro", apellido: "Jiménez", profesion: "Marketing", foto: "https://i.pravatar.cc/100?img=17" },
     { id: 18, nombre: "Juan", apellido: "Salazar", profesion: "Chef", foto: "https://i.pravatar.cc/100?img=18" },
     { id: 19, nombre: "Natalia", apellido: "Cárdenas", profesion: "Diseñadora Gráfica", foto: "https://i.pravatar.cc/100?img=19" },
-    { id: 20, nombre: "Esteban", apellido: "Mendoza", profesion: "Fotógrafo", foto: "https://i.pravatar.cc/100?img=20" },
+    { id: 20, nombre: "Estefanía", apellido: "Mendoza", profesion: "Fotógrafa", foto: "https://i.pravatar.cc/100?img=20" },
   ]);
 
   return (
